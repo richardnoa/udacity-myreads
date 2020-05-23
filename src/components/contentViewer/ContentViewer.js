@@ -6,7 +6,7 @@ function ContentViewer(props) {
   return (
     <div>
       <h2 className={classes.title}>{props.status}</h2>
-      <BooksList />
+      <BooksList books ={props.books}/>
     </div>
   );
 }
